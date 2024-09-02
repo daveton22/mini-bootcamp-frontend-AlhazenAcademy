@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-color: #f4f4f4;
+  margin: 30vh;
+  overflow: auto;
+  resize: both;
+  border: 5px solid #616161;
+}
+
+/* Header */
+header {
+  background-color: #b31312;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  /* position: sticky;
+  top: 0; */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  margin: 0em 1em;
+  text-decoration: none;
+}
+
+nav ul li:nth-child(2) {
+  margin: 0em 2em;
+}
+
+/* main */
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* tentangSaya */
+#tentangSayaHeader {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #2b2a4c;
+  width: 40%;
+  padding: 1em;
+  color: white;
+}
+
+#tentangSayaHeader h1 {
+  font-weight: 1000;
+  font-size: 2em;
+  margin: 0;
+}
+
+#tentangSayaHeader p {
+  font-size: 14px;
+  color: #e2e2e2;
+}
+
+.logoCV {
+  width: 10em;
+  height: 10em;
+  margin-left: 4em;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoCV img {
+  width: 15em;
+  height: auto;
+  object-fit: cover;
+}
+
+.language ul {
+  display: flex;
+  padding: 0;
+}
+
+.language ul li {
+  margin: 0em 1em;
+}
+
+.contactMe ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contactMe ul li {
+  margin: 1em 0;
+  font-size: 15px;
+}
+
+.contactMe h4 {
+  margin: 0;
+}
+
+/* #tentangSaya div:nth-child(2) {
+  margin: 0em 4em;
+} */
+
+/* Biodata */
+#biodata {
+  display: flex;
+  margin: 1em;
+  flex-direction: column;
+  width: 80%;
+  color: #2b2a4c;
+}
+
+.biodataHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.biodataHeader h1 {
+  font-weight: 1000;
+  font-size: 2em;
+  margin: 0;
+}
+.biodataHeader p {
+  margin: 0;
+}
+
+.biodataHeader :nth-child(2) ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+.biodataHeader :nth-child(2) ul li {
+  display: flex;
+  margin: 0em 1em;
+  align-items: center;
+  font-size: small;
+}
+
+.biodataHeader :nth-child(2) ul li img {
+  height: auto;
+  margin-right: 0.5em;
+}
+
+footer {
+  background-color: #eee2de;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 0.1em;
+}
